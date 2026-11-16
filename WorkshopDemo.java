@@ -4,7 +4,7 @@ public class WorkshopDemo {
         
         try {
             System.out.println("Attempting to register a 16-year-old participant...");
-            workshop.registerParticipant("Alice", 16);
+            workshop.registerParticipant("rahf", 16);
         } catch (InvalidAgeException e) {
             System.out.println("Caught Exception: " + e.getMessage());
         }
